@@ -17,7 +17,6 @@ https://github.com/enqiangjing/password-online-api
 ```
 
 
-
 ## 软件架构
 
 ### 服务提供(API)
@@ -42,7 +41,6 @@ https://github.com/enqiangjing/password-online-api
 > 打包运行
 
 
-
 ## 版本信息
 
 ### 最新版本
@@ -50,7 +48,6 @@ https://github.com/enqiangjing/password-online-api
 >* 测试版 v1.0.0 --- 2021-05-13
 >    - 修改请求路径
 >    - 增加线上环境日志配置文件
-
 
 
 ## * 免责声明
