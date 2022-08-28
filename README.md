@@ -36,7 +36,7 @@ https://github.com/enqiangjing/password-online-api
 > application.properties：mysql、redis 地址、账号、密码更新为本机配置
 
 ### 数据库建立
-> mysql 导入根目录下 ./.about/data/password_online.sql
+> mysql 导入根目录下 docs/data/password_online.sql
 
 ### 发布
 > 打包运行
