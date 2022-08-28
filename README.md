@@ -2,18 +2,18 @@
 
 ## 工程介绍
 * 在线密码管理工具的后端服务
-* **详细使用请见** [**操作手册**](https://github.com/enqiangjing/password-online-web/blob/main/options.md)
+* **详细使用请见** [**操作手册**](https://github.com/enqiangjing/study-online-web/blob/main/options.md)
 
 ```shell
 # 项目介绍
-git clone git@github.com:enqiangjing/study-online.git
+git clone git@github.com:enqiangjing/password-online.git
 
 # 前端项目
-git clone git@github.com:enqiangjing/study-online-web.git
-git clone git@github.com:enqiangjing/study-online-uniapp.git
+git clone git@github.com:enqiangjing/password-online-web.git
+git clone git@github.com:enqiangjing/password-online-uniapp.git
 
 # 后端项目
-git clone git@github.com:enqiangjing/study-online-api.git
+git clone git@github.com:enqiangjing/password-online-api.git
 ```
 
 
