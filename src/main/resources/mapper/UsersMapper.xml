@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.po.passwordonline.mapper.UsersMapper">
+    <!-- 此处与接口方法名对应 指定参数类型与返回结果类型-->
+    <select id="userVerify" parameterType="String" resultType="com.po.passwordonline.model.Users">
+        select *
+        from users
+        where userName = #{userName}
+          and password = #{password}
+    </select>
+
+    <update id="upDateUser" parameterType="com.po.passwordonline.model.Users">
+        update users
+        <set>
+            <if test="password!=null and !''.equals(password)">
+                password=#{password},
+            </if>
+            <if test="email!=null and !''.equals(email)">
+                `email`=#{email},
+            </if>
+            <if test="phone!=null and !''.equals(phone)">
+                `phone`=#{phone},
+            </if>
+            <if test="publicKey!=null and !''.equals(publicKey)">
+                publicKey=#{publicKey},
+            </if>
+            <if test="status!=null and status!=0">
+                `status`=#{status}
+            </if>
+        </set>
+        where userName=#{userName}
+    </update>
+</mapper>
